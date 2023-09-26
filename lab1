@@ -1,0 +1,24 @@
+//Задание:1 Вариант:8 Сложность:3
+
+//Console.Write("Введите a: ");
+//double a = double.Parse(Console.ReadLine());
+//Console.Write("Введите y: ");
+//double y = double.Parse(Console.ReadLine());
+//Console.Write("Введите c: ");
+//double c = double.Parse(Console.ReadLine());
+//Console.Write("Введите x: ");
+//double x = double.Parse(Console.ReadLine());
+//double P = (Math.Pow(a, 5) + Math.Pow(Math.Sin(y - a), 4)) / (Math.Pow(Math.Sin(y + x), 3) + Math.Abs(x - y));
+//Console.WriteLine($"P = {P:F2}");
+
+//Задание:2 Вариант:8 Сложность:3
+
+Console.Write("Введите a: ");
+double a = double.Parse(Console.ReadLine());
+Console.Write("Введите c: ");
+double c = double.Parse(Console.ReadLine());
+double b = (a * a + c * c);
+double G = (Math.Sqrt(b));
+Console.WriteLine($"Гипотинуза = {G:F0}");
+double S = (a*c) / 2;
+Console.WriteLine($"Площадь = {S:F0}");
